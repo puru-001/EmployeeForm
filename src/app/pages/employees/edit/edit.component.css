@@ -1,0 +1,13 @@
+label {
+    color: slategrey;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.employeeform{
+    width: 70%;
+    margin: 20px 100px;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 6px 5px #888888;
+}

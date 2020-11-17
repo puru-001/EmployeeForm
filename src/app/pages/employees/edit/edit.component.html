@@ -1,0 +1,33 @@
+<div class="container mt-5">
+    <h2>{{header}}</h2>
+
+    <form (ngSubmit)="onSubmit(form)" #form="ngForm" class="employeeform">
+        <div class="form-group">
+            <label for="">ID :</label>
+    <input type="text" class="form-control"[ngModel]="employee.id" name="id">
+        </div>
+        <div class="form-group">
+            <label for="">Employee Name :</label>
+        <input type="text" class="form-control"[ngModel]="employee.name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="">Position :</label>
+        <input type="text" class="form-control"[ngModel]="employee.position" name="position">
+        </div>
+        <div class="form-group">
+            <label for="">Email :</label>
+        <input type="text" class="form-control"[ngModel]="employee.email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="">Joining Date :</label>
+        <input type="date" class="form-control"[ngModel]="employee.joining_date" name="joining_date">
+        </div>
+        <div class="form-group">
+            <label for="">Contact :</label>
+        <input type="text" class="form-control"[ngModel]="employee.phone" name="phone">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Register/Save</button>
+        </div>
+    </form>
+</div>
