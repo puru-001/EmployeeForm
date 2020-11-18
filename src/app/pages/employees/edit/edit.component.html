@@ -27,6 +27,10 @@
         <input type="text" class="form-control"[ngModel]="employee.phone" name="phone">
         </div>
         <div class="form-group">
+            <label for="">About:</label>
+            <textarea name="about" id="" cols="88" rows="5" [ngModel]="employee.about" ></textarea>
+        </div>
+        <div class="form-group">
             <button class="btn btn-primary btn-lg btn-block" type="submit">Register/Save</button>
         </div>
     </form>

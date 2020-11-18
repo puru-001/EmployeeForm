@@ -18,7 +18,8 @@ employee: Employee ={
   position: '',
   email: '',
   joining_date: 0,
-  phone: 0
+  phone: 0,
+  about: '',
   
 }
 
@@ -42,7 +43,8 @@ if(this.id !=0){
       position:form.value.position,
       email: form.value.email,
       joining_date: form.value.joining_date,
-      phone: form.value.phone
+      phone: form.value.phone,
+      about: form.value.about
     }
     if(this.id===0){
       this.employeeService.onAdd(employee);

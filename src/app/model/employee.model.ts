@@ -5,4 +5,5 @@ export class Employee{
     public email : string;
     public joining_date: number;
     public phone: number;
+    public about : string;
 }

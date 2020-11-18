@@ -9,19 +9,21 @@ employees: Employee[] = [
 
   {
     id:1,
-    name: "Purushottam",
-    position: "angular Developer",
-    email: "puru@gmail.com",
-    joining_date: 11/11/2020,
-    phone: 123456778
+    name: "Purushottam Singh",
+    position: "Angular Developer",
+    email: "er.purushottam2493@gmail.com",
+    joining_date: 2020-11-19,
+    phone: 7296984431,
+    about: "i am working at RapidKen as Angular Developer."
   },
   {
     id:2,
-    name: "Akash",
-    position: "Fullstack developer",
-    email: "akash@gmail.com",
-    joining_date: 11/11/2020,
-    phone: 32434543534
+    name: "Purushottam Singh",
+    position: "Angular Developer",
+    email: "er.purushottam2493@gmail.com",
+    joining_date: 2020-11-19,
+    phone:7296984431,
+    about: "i am working at RapidKen as Angular Developer."
   },
 ];
   constructor() { }
@@ -50,5 +52,6 @@ employees: Employee[] = [
     oldEmployee.email = employee.email;
     oldEmployee.joining_date = employee.joining_date;
     oldEmployee.phone = employee.phone;
+    oldEmployee.about = employee.about;
   }
 }

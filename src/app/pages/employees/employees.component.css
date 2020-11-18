@@ -1,0 +1,24 @@
+p {
+    font-family: Lato;
+  }
+  
+  .employee-card {
+    max-width: 300px;
+    margin: 4px
+  }
+  
+  .employee-header-image {
+    background-image: url('/assets/download.png');
+    background-size: cover;
+  }
+  .employee-table{
+    display: flex;
+    margin: 0px;
+    justify-content: space-evenly;
+  }
+  span{
+    font-size: large;
+    font-weight: 500;
+    color: darkred;
+  }
+
