@@ -10,7 +10,7 @@ const routes: Routes = [
   },
   {
     path: "**",
-    component: EditComponent
+    redirectTo: "EditComponent"
   },
   {
     path: "employee/add/:id",
